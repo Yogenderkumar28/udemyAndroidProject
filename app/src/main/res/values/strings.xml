@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">UdemyProjectsAndroid</string>
+    <string name="btn_1_name">Guess My Number</string>
+    <string name="imageview_name">Udemy Projects</string>
+    <string name="btn_2_name">BMI Application</string>
+
+    // Strings Used in Guess My Number Activity
+    <string name="textview_name_guess_my_number">Guess My Number</string>
+    <string name="textview_success">Success</string>
+    <string name="textview_target_number">Your Number is %d</string>
+
+    <!-- Questions -->
+    <string name="first_question">Is Your Number is 5 ?</string>
+    <string name="second_question">Is Your Number is 3 ?</string>
+    <string name="third_question">Is Your Number is 2 ?</string>
+    <string name="fourth_question">Is Your Number is 1 ?</string>
+    <string name="fifth_question">Is Your Number is 4 ?</string>
+    <string name="sixth_question">Is Your Number is  7?</string>
+    <string name="seventh_question">Is Your Number is 6 ?</string>
+    <string name="eighth_question">Is Your Number is 9 ?</string>
+    <string name="nineth_question">Is Your Number is 8 ?</string>
+    <string name="tenth_question">Is Your Number is 10 ?</string>
+
+    <string name="reset_btn">Reset</string>
+    <string name="start_btn">Start</string>
+
+    <string name="btn_upward_desc">Increase Number</string>
+    <string name="btn_downward_desc">Decrease Number</string>
+    <string name="btn_Correct_desc">Correct Number</string>
+
+    // Strings used in BMI Calculator app
+    <string name="textview_1_hint">Weight In Pounds</string>
+    <string name="textview_2_hint">Height In Inch</string>
+    <string name="text_view_heading">Calculate Your BMI</string>
+
+    <string name="calculate_btn">Calculate</string>
+    <string name="output_text_view_desc">BMI Value</string>
+    <string name="output_text_view">BMI Value : %d</string>
+
+    // types of people
+    <string name="class_1_bmi_textview">Underweight</string>
+    <string name="class_2_bmi_textview">Healthy</string>
+    <string name="class_3_bmi_textview">Obesity</string>
+    <string name="class_4_bmi_textview">Overweight</string>
+
+
+</resources>
