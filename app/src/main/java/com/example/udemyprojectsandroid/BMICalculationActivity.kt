@@ -15,6 +15,7 @@ class BMICalculationActivity : AppCompatActivity() {
             calculateFunction(it)
         }
     }
+    // Function To display image according to the BMI of the person
     fun calculateFunction(view: View) {
 
         val weightInPnd = binding.weightTextView.text.toString().toDouble()
@@ -32,8 +33,8 @@ class BMICalculationActivity : AppCompatActivity() {
             binding.imageView.setImageResource(R.drawable.obesity)
         }
     }
+    // Function To Calculate BMI of A person
     fun calculate(weight: Double, height: Double): Float {
-        var myBmi = ((weight * 0.45) / ((height * 0.025) * (height * 0.025))).toFloat()
-        return myBmi
+      return ((weight * 0.45) / ((height * 0.025) * (height * 0.025))).toFloat()
     }
 }

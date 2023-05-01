@@ -13,13 +13,28 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.guessMyNumberActivityBtn.setOnClickListener {
-            val Intent = Intent(this, GuessMyNumberActivity::class.java)
-            startActivity(Intent)
+            val intent = Intent(this, GuessMyNumberActivity::class.java)
+            startActivity(intent)
         }
 
         binding.bmiActivityBtn.setOnClickListener {
-            val Intent = Intent(this, BMICalculationActivity::class.java)
-            startActivity(Intent)
+            val intent = Intent(this, BMICalculationActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.myListViewActivityBtn.setOnClickListener {
+            val intent = Intent(this, MyListView::class.java)
+            startActivity(intent)
+        }
+
+        binding.numberListActivityBtn.setOnClickListener {
+            val intent = Intent(this, NumberList::class.java)
+            startActivity(intent)
+        }
+
+        binding.userProfileView.setOnClickListener {
+            val intent = Intent(this, UserLIstView::class.java)
+            startActivity(intent)
         }
     }
 }

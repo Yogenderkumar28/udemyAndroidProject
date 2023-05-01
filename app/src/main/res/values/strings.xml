@@ -3,6 +3,9 @@
     <string name="btn_1_name">Guess My Number</string>
     <string name="imageview_name">Udemy Projects</string>
     <string name="btn_2_name">BMI Application</string>
+    <string name="btn_3_name">My Simple List View</string>
+    <string name="btn_4_name">Number List Application</string>
+    <string name="btn_5_name">User Profile View</string>
 
     // Strings Used in Guess My Number Activity
     <string name="textview_name_guess_my_number">Guess My Number</string>
@@ -42,6 +45,8 @@
     <string name="class_2_bmi_textview">Healthy</string>
     <string name="class_3_bmi_textview">Obesity</string>
     <string name="class_4_bmi_textview">Overweight</string>
+
+    // Strings Used in NumberList
 
 
 </resources>
